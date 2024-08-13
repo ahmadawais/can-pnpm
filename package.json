@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "Check if pnpm is used instead of npm",
 	"license": "MIT",
+	"type": "module",
 	"repository": "ahmadawais/has-pnpm",
 	"author": {
 		"name": "Ahmad Awais",
@@ -15,6 +16,7 @@
 	],
 	"keywords": [
 		"has-pnpm",
+		"has-pnpm",
 		"Ahmad Awais",
 		"ahmadawais"
 	],
@@ -24,5 +26,8 @@
 	"scripts": {
 		"test": "node test.js",
 		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"execa": "^9.3.0"
 	}
 }
