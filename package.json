@@ -3,17 +3,12 @@
 	"version": "0.1.0",
 	"description": "Check if pnpm is used instead of npm",
 	"license": "MIT",
-	"type": "module",
 	"repository": "ahmadawais/can-pnpm",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com",
 		"url": "https://twitter.com/MrAhmadAwais"
 	},
-	"main": "index.js",
-	"files": [
-		"index.js"
-	],
 	"keywords": [
 		"can-pnpm",
 		"can-pnpm",
@@ -21,13 +16,34 @@
 		"ahmadawais"
 	],
 	"devDependencies": {
-		"prettier": "^2.0.2"
-	},
-	"scripts": {
-		"test": "node test.js",
-		"format": "prettier --write \"./**/*.{js,json}\""
+		"@types/node": "^22.2.0",
+		"prettier": "^2.0.2",
+		"tsup": "^8.2.4",
+		"typescript": "^5.5.4",
+		"vitest": "^2.0.5"
 	},
 	"dependencies": {
 		"execa": "^9.3.0"
+	},
+	"files": [
+		"dist",
+		"*.d.ts"
+	],
+	"type": "module",
+	"main": "dist/index.js",
+	"module": "dist/index.mjs",
+	"types": "dist/index.d.ts",
+	"exports": {
+		".": {
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs",
+			"types": "./dist/index.d.ts"
+		}
+	},
+	"scripts": {
+		"dev": "npm run build -- --watch",
+		"build": "tsup index.js --format cjs,esm --dts",
+		"prepublishOnly": "npm run build",
+		"format": "prettier --write \"./**/*.{js,json}\""
 	}
 }
