@@ -45,6 +45,19 @@ All notable changes in this project's [released versions](../../releases) are do
 <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
 <br>
 
+### RELEASE: [0.4.0](https://github.com/ahmadawais/has-pnpm/compare/0.3.0...0.4.0)
+
+![🐛 FIX:](https://img.shields.io/badge/🐛-FIX-gray.svg?colorA=BC4C00&colorB=BC4C00&style=for-the-badge)
+
+> 🐛 Lingo [`ad5ae25`](https://github.com/ahmadawais/has-pnpm/commit/ad5ae25a836a22da36005837590001f06594ac25)
+
+<br>
+
+<br>
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/dark-hr.png#gh-dark-mode-only" alt="hr" />
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
+<br>
+
 ### RELEASE: [0.3.0](https://github.com/ahmadawais/has-pnpm/compare/0.2.0...0.3.0)
 
 ![🐛 FIX:](https://img.shields.io/badge/🐛-FIX-gray.svg?colorA=BC4C00&colorB=BC4C00&style=for-the-badge)
@@ -52,6 +65,10 @@ All notable changes in this project's [released versions](../../releases) are do
 > 🐛 Example [`4818cd6`](https://github.com/ahmadawais/has-pnpm/commit/4818cd6f81b6e6a33475fbbb5be17fccba00268d)
 
 > 🐛 Example [`d58116a`](https://github.com/ahmadawais/has-pnpm/commit/d58116a1ca46619f038a0b615efe11d9db7b7077)
+
+![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Changelog [`2bb4b2b`](https://github.com/ahmadawais/has-pnpm/commit/2bb4b2b984416dc35dfe68004a6d7e76d09bdb49)
 
 <br>
 
