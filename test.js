@@ -1,3 +1,3 @@
-const hasPnpm = require('./index.js');
+const canPnpm = require('./index.js');
 
-hasPnpm();
+canPnpm();

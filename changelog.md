@@ -49,9 +49,9 @@ All notable changes in this project's [released versions](../../releases) are do
 
 ![📦 NEW:](https://img.shields.io/badge/📦-NEW-gray.svg?colorA=238635&colorB=238635&style=for-the-badge)
 
-> 📦 First commit [`109ba81`](https://github.com/ahmadawais/has-pnpm/commit/109ba813cd89da6d3ef7bba4e021e459ec0d7ad5)
+> 📦 First commit [`109ba81`](https://github.com/ahmadawais/can-pnpm/commit/109ba813cd89da6d3ef7bba4e021e459ec0d7ad5)
 
-> 📦 v1 [`5117621`](https://github.com/ahmadawais/has-pnpm/commit/5117621db5c2662a10dc84fc3a02969b916db5e0)
+> 📦 v1 [`5117621`](https://github.com/ahmadawais/can-pnpm/commit/5117621db5c2662a10dc84fc3a02969b916db5e0)
 
 <br>
 

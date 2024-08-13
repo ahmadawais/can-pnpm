@@ -1,9 +1,9 @@
-# has-pnpm
+# can-pnpm
 
-[![DOWNLOADS](https://img.shields.io/npm/dt/has-pnpm?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/has-pnpm) [![Node.js CLI](https://img.shields.io/badge/-NodeCLI.com-gray.svg?colorB=6A788D&style=flat)](https://NodeCLI.com/?utm_source=FOSS) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=FOSS) [![Sponsor](https://img.shields.io/badge/-Sponsor-gray.svg?colorB=6A788D&style=flat)](https://github.com/ahmadawais/sponsor?utm_source=FOSS)
+[![DOWNLOADS](https://img.shields.io/npm/dt/can-pnpm?label=DOWNLOADS%20%20❯&colorA=6A788D&colorB=6A788D&style=flat)](https://www.npmjs.com/package/can-pnpm) [![Node.js CLI](https://img.shields.io/badge/-NodeCLI.com-gray.svg?colorB=6A788D&style=flat)](https://NodeCLI.com/?utm_source=FOSS) [![Learn VSCode](https://img.shields.io/badge/-VSCODE.pro-gray.svg?colorB=6A788D&style=flat)](https://VSCode.pro/?utm_source=FOSS) [![Sponsor](https://img.shields.io/badge/-Sponsor-gray.svg?colorB=6A788D&style=flat)](https://github.com/ahmadawais/sponsor?utm_source=FOSS)
 [![Follow @MrAhmadAwais on Twitter](https://img.shields.io/badge/FOLLOW%20@MRAHMADAWAIS%20%E2%86%92-gray.svg?colorA=6A788D&colorB=6A788D&style=flat)](https://twitter.com/mrahmadawais/)
 
-> `has-pnpm` is a npm package that detects the presence of pnpm in your project or system. If pnpm is not found, it provides information about other detected package managers.
+> `can-pnpm` is a npm package that detects the presence of pnpm in your project or system. If pnpm is not found, it provides information about other detected package managers.
 
 
 <br>
@@ -13,11 +13,11 @@
 ## Install
 
 ```sh
-pnpm add has-pnpm
+pnpm add can-pnpm
 # or
-npm install has-pnpm
+npm install can-pnpm
 # or
-yarn add has-pnpm
+yarn add can-pnpm
 ```
 
 <br>
@@ -27,16 +27,16 @@ yarn add has-pnpm
 ## Usage
 
 ```js
-import hasPnpm from 'has-pnpm';
+import canPnpm from 'can-pnpm';
 
-const result = await hasPnpm();
+const result = await canPnpm();
 console.log(result);
 ```
 If pnpm is detected:
 
 ```sh
 {
-  hasPnpm: true,
+  canPnpm: true,
   reason: 'local lock file' | 'global installation'
 }
 ```
@@ -44,7 +44,7 @@ If pnpm is not detected:
 
 ```sh
 {
-  hasPnpm: false,
+  canPnpm: false,
   otherManagers: [
     {
       name: 'yarn' | 'npm' | 'bun',
@@ -59,7 +59,7 @@ If pnpm is not detected:
 
 1. The package first checks for a `pnpm-lock.yaml` file in the specified directory (or current working directory if not specified).
 2. If the lock file is not found, it checks for a global pnpm installation.
-3. If pnpm is not detected, it checks for the presence of other package managers (yarn, npm, and bun) by looking for their respective lock files and global installations.
+3. If `pnpm` is not detected, it checks for the presence of other package managers (yarn, npm, and bun) by looking for their respective lock files and global installations.
 
 <br>
 

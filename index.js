@@ -56,24 +56,24 @@ async function checkOtherManagers(cwd) {
 	return results.filter(m => m.hasLock || m.hasGlobal);
 }
 
-async function hasPnpm(cwd = process.cwd()) {
+async function canPnpm(cwd = process.cwd()) {
 	// Check for pnpm lock file
 	const pnpmLockExists = await exists(path.join(cwd, 'pnpm-lock.yaml'));
 	if (pnpmLockExists) {
-		return {hasPnpm: true, reason: 'local lock file'};
+		return {canPnpm: true, reason: 'local lock file'};
 	}
 
 	// Check for global pnpm installation
-	const hasPnpmGlobal = await hasGlobalInstallation('pnpm');
-	if (hasPnpmGlobal) {
-		return {hasPnpm: true, reason: 'global installation'};
+	const canPnpmGlobal = await hasGlobalInstallation('pnpm');
+	if (canPnpmGlobal) {
+		return {canPnpm: true, reason: 'global installation'};
 	}
 
 	// If pnpm is not found, check other managers
 	const otherManagers = await checkOtherManagers(cwd);
 
 	return {
-		hasPnpm: false,
+		canPnpm: false,
 		otherManagers: otherManagers.map(m => ({
 			name: m.name,
 			detected: m.hasLock ? 'local lock file' : 'global installation'
@@ -81,12 +81,12 @@ async function hasPnpm(cwd = process.cwd()) {
 	};
 }
 
-export default hasPnpm;
+export default canPnpm;
 
 // Example usage
 (async () => {
 	try {
-		const result = await hasPnpm();
+		const result = await canPnpm();
 		console.log(result);
 	} catch (error) {
 		console.error('Error:', error);

@@ -1,10 +1,10 @@
 {
-	"name": "has-pnpm",
+	"name": "can-pnpm",
 	"version": "0.0.1",
 	"description": "Check if pnpm is used instead of npm",
 	"license": "MIT",
 	"type": "module",
-	"repository": "ahmadawais/has-pnpm",
+	"repository": "ahmadawais/can-pnpm",
 	"author": {
 		"name": "Ahmad Awais",
 		"email": "me@AhmadAwais.com",
@@ -15,8 +15,8 @@
 		"index.js"
 	],
 	"keywords": [
-		"has-pnpm",
-		"has-pnpm",
+		"can-pnpm",
+		"can-pnpm",
 		"Ahmad Awais",
 		"ahmadawais"
 	],
