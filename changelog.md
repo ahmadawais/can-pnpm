@@ -45,6 +45,27 @@ All notable changes in this project's [released versions](../../releases) are do
 <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
 <br>
 
+### RELEASE: [0.2.0](https://github.com/ahmadawais/has-pnpm/compare/0.1.0...0.2.0)
+
+![👌 IMPROVE:](https://img.shields.io/badge/👌-IMPROVEMENT-gray.svg?colorA=8250DF&colorB=8250DF&style=for-the-badge)
+
+> 👌 cjs and esm [`7394d23`](https://github.com/ahmadawais/has-pnpm/commit/7394d23bae92e114fc3f0dd1a3acca7e10298c7c)
+
+![🐛 FIX:](https://img.shields.io/badge/🐛-FIX-gray.svg?colorA=BC4C00&colorB=BC4C00&style=for-the-badge)
+
+> 🐛 cjs [`ca4f5db`](https://github.com/ahmadawais/has-pnpm/commit/ca4f5db6114fcce63fafce7bb365d830f258ec95)
+
+> 🐛 split [`df01fb6`](https://github.com/ahmadawais/has-pnpm/commit/df01fb6efe2023154bccc282209c12927920cde7)
+
+> 🐛 order [`c296fef`](https://github.com/ahmadawais/has-pnpm/commit/c296fef99d903b6e4395d829a556407af04247d2)
+
+<br>
+
+<br>
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/dark-hr.png#gh-dark-mode-only" alt="hr" />
+<img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
+<br>
+
 ### RELEASE: 0.1.0
 
 ![📦 NEW:](https://img.shields.io/badge/📦-NEW-gray.svg?colorA=238635&colorB=238635&style=for-the-badge)
@@ -60,6 +81,8 @@ All notable changes in this project's [released versions](../../releases) are do
 ![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
 
 > 📖 Changelog [`46cb5cd`](https://github.com/ahmadawais/has-pnpm/commit/46cb5cdb64fe77bad866cf52cf00717d132eb465)
+
+> 📖 Changelog [`49da0e0`](https://github.com/ahmadawais/has-pnpm/commit/49da0e06cfa1cb2dd768c8760a2343b1e088aa29)
 
 <br>
 
