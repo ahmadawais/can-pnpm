@@ -45,13 +45,21 @@ All notable changes in this project's [released versions](../../releases) are do
 <img src="https://raw.githubusercontent.com/ahmadawais/stuff/master/changelog/light-hr.png#gh-light-mode-only" alt="hr" />
 <br>
 
-### RELEASE: 1.0.0
+### RELEASE: 0.1.0
 
 ![📦 NEW:](https://img.shields.io/badge/📦-NEW-gray.svg?colorA=238635&colorB=238635&style=for-the-badge)
 
-> 📦 First commit [`109ba81`](https://github.com/ahmadawais/can-pnpm/commit/109ba813cd89da6d3ef7bba4e021e459ec0d7ad5)
+> 📦 First commit [`109ba81`](https://github.com/ahmadawais/has-pnpm/commit/109ba813cd89da6d3ef7bba4e021e459ec0d7ad5)
 
-> 📦 v1 [`5117621`](https://github.com/ahmadawais/can-pnpm/commit/5117621db5c2662a10dc84fc3a02969b916db5e0)
+> 📦 v1 [`5117621`](https://github.com/ahmadawais/has-pnpm/commit/5117621db5c2662a10dc84fc3a02969b916db5e0)
+
+![🐛 FIX:](https://img.shields.io/badge/🐛-FIX-gray.svg?colorA=BC4C00&colorB=BC4C00&style=for-the-badge)
+
+> 🐛 Name [`ec94331`](https://github.com/ahmadawais/has-pnpm/commit/ec94331b1708d8e1ac07d877f0164cab1cd84f4f)
+
+![📖 DOC:](https://img.shields.io/badge/📖-DOCS-gray.svg?colorA=1169DA&colorB=1169DA&style=for-the-badge)
+
+> 📖 Changelog [`46cb5cd`](https://github.com/ahmadawais/has-pnpm/commit/46cb5cdb64fe77bad866cf52cf00717d132eb465)
 
 <br>
 
