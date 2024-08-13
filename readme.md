@@ -13,7 +13,7 @@
 ## Install
 
 ```sh
-pnpm add can-pnpm
+pnpm install can-pnpm
 # or
 npm install can-pnpm
 # or
