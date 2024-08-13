@@ -82,14 +82,4 @@ async function canPnpm(cwd = process.cwd()) {
 	};
 }
 
-// Example usage
-(async () => {
-	try {
-		const result = await canPnpm();
-		console.log(result);
-	} catch (error) {
-		console.error('Error:', error);
-	}
-})();
-
 export { canPnpm as default };
